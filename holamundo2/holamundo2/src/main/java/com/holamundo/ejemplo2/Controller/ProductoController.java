@@ -24,6 +24,9 @@ public class ProductoController {
         producto.add("a");
         producto.add("b");
         producto.add("c");
+        producto.add("juan");
+        producto.add("victor");
+
 
         if (producto.contains(idProducto)){
             return "Producto encontrado";

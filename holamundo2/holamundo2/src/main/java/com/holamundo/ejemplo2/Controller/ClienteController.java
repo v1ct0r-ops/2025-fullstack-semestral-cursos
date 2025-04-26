@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/cliente")
 public class ClienteController {
 
+    //Comerntario de prueba
+
     @GetMapping
     public  String index(){
             return "Bienvenidos al listado de clientes";
